@@ -1,4 +1,4 @@
-### Comments in Python
+# Comments
 
 A comment is a programmer-readable explanation or annotation in the source code of a computer program
 
