@@ -8,10 +8,9 @@
 count = 100
 while count>=0:
     if count % 2 == 0:
-        continue
+        pass
     print(count)
     count = count - 1  
-
 #ICU
 
 # name = "Mary"
