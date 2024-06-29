@@ -5,14 +5,17 @@
 # print("4")
 # print("5")
 
-# count = 100
-# while count>=0:
-#     print("Sorry")
-#     count = count - 1
+count = 100
+while count>=0:
+    print(count)
+    if count == 90:
+        print("Found it!")
+        break
+    count = count - 1
 
 #ICU
 
-name = "Mary"
+# name = "Mary"
 
-for char in name:
-    print(char)
+# for char in name:
+#     print(char)
