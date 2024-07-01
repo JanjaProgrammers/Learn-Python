@@ -1,7 +1,4 @@
-def greet():
-    print("Hello Mary")
-    print("How are you?")
+def arithmetic_operations(a, b):
+    return a + b, a - b, a * b, a / b
 
-greet()
-greet()
-greet()
+print(arithmetic_operations(10, 2))
