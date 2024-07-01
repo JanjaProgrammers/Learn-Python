@@ -1,6 +1,5 @@
-def greet(name):
-    print(f"Hello {name}!")
+def print_details(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
 
-greet("Dan")
-greet("Mary")
-greet("Phil")
+print_details(name="Alice", age=30, city="New York")
