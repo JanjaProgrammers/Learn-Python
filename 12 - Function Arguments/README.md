@@ -18,19 +18,19 @@ greet()
 ```
 
 Python supports several types of arguments:
-
-1. **Positional Arguments:**
-   Positional arguments are the most common type of argument and are passed to a function in a specific order.
+1. **Default Parameters:**
+   Default arguments are used to provide default values for parameters. If an argument is not provided, the default value is used.
 
    **Example:**
 
    ```python
-   def add(a, b):
-       return a + b
+   def greet(name="Dan"):
+       print(f"Hello, {name}!")
 
-   result = add(5, 3)
-   print(result)  # Output: 8
+   greet()  # Output: Hello, Dan!
+   greet("Mary")  # Output: Hello, Mary!
    ```
+
 
 2. **Keyword Arguments:**
    Keyword arguments are passed to a function by explicitly naming each parameter and assigning a value to it.
@@ -43,18 +43,17 @@ Python supports several types of arguments:
 
    greet(name="Alice", message="Hello")
    ```
-
-3. **Default Arguments:**
-   Default arguments are used to provide default values for parameters. If an argument is not provided, the default value is used.
+3. **Positional Arguments:**
+   Positional arguments are the most common type of argument and are passed to a function in a specific order.
 
    **Example:**
 
    ```python
-   def greet(name, message="Hello"):
-       print(f"{message}, {name}!")
+   def add(a, b):
+       return a + b
 
-   greet("Bob")  # Output: Hello, Bob!
-   greet("Alice", "Hi")  # Output: Hi, Alice!
+   result = add(5, 3)
+   print(result)  # Output: 8
    ```
 
 4. **Variable-Length Arguments:**
