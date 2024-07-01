@@ -34,4 +34,4 @@ A function consist of:
    greet()
    ```
 
-**A function has a name, parameters, a docstring, a body, and a return statement.**
+Function has name, parameters ,docstring, body, return statement
