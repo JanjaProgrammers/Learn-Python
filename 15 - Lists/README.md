@@ -1,3 +1,8 @@
+# Data Structures
+A data structure is a specialized format for organizing, processing, retrieving and storing data. 
+
+Data structures are “containers” that organize and group data according to type. The data structures differ based on mutability and order.
+
 ### Lists in Python
 
 Lists are one of the most versatile and widely used data structures in Python. They allow you to store collections of items in an ordered, changeable (mutable) format. Here’s a comprehensive guide to understanding and using lists in Python:
