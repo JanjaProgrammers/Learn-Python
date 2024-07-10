@@ -2,7 +2,7 @@
 
 **Definition and Importance**
 - **What is PIP?**
-  - PIP stands for "PIP Installs Packages" or "Pip Installs Python." It is the package installer for Python, allowing you to install and manage additional libraries and dependencies that are not part of the standard Python library.
+  - PIP stands for "PIP Installs Packages" or "Preferred Installer Program." It is the package installer for Python, allowing you to install and manage additional libraries and dependencies that are not part of the standard Python library.
 
 - **Why use PIP?**
   - PIP simplifies the process of installing and managing external libraries and tools, making it easy to extend the functionality of your Python environment.
