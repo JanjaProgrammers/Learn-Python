@@ -1,4 +1,4 @@
-# Error Handling in File Operations
+# Exception Handling in File Operations
 
 - **Using Try-Except Blocks**
 
